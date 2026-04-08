@@ -1,0 +1,138 @@
+/home/dima/Downloads/Filmography/
+├── 12.Years.a.Slave.2013.1080p.BluRay.x264.YIFY.mp4
+├── 500Days of Summer 2009 1080p.mp4
+├── A.Beautiful.Mind.2001.1080p.BrRip.x264.YIFY.mp4
+├── Avatar
+│   ├── Avatar.ECE.2009.1080p.BrRip.x264.bitloks.YIFY.mp4
+│   └── Avatar.ECE.2009.1080p.BrRip.x264.bitloks.YIFY.srt
+├── Back_To_The_Future_Trilogy
+│   ├── Back To The Future 1985 Remastered 1080p BluRay HEVC x265 5.1 BONE.mkv
+│   ├── Back To The Future Part II 1989 Remastered 1080p BluRay HEVC x265 5.1 BONE.mkv
+│   └── Back To The Future Part III 1990 Remastered 1080p BluRay HEVC x265 5.1 BONE.mkv
+├── Batman.The.Dark.Knight.2008.1080p.BluRay.x264.YIFY.mp4
+├── Braveheart.1995.1080p.BrRip.x264.YIFY+HI.mp4
+├── Bride.Wars.2009.1080p.BrRip.x264.YIFY.mp4
+├── Catch Me If You Can 2002 REMASTERED 1080p BluRay HEVC x265 5.1 BONE.mkv
+├── Coco.2017.1080p.BluRay.x264-[YTS.AG].mp4
+├── Die.Hard.1988.1080p.BluRay.AV1.DDP.5.1.Multi3-dAV1nci.mkv
+├── EuroTrip 2004 UNRATED 1080p BluRay HEVC x265 5.1 BONE.mkv
+├── Fight.Club.10th.Anniversary.Edition.1999.1080p.BrRip.x264.YIFY.mp4
+├── Forrest Gump 1994 REMASTERED 1080p BluRay HEVC x265 5.1 BONE.mkv
+├── gladiator
+│   ├── Gladiator.EXTENDED.2000.1080.BrRip.264.YIFY.mp4
+│   └── Gladiator.EXTENDED.2000.1080.BrRip.264.YIFY.srt
+├── Gone.Girl.2014.1080p.BluRay.x264.YIFY.mp4
+├── Green.Book.2018.1080p.WEBRip.x264-[YTS.AM].mp4
+├── Hacksaw.Ridge.2016.1080p.BluRay.H264.AAC.mp4
+├── Harry_Potter
+│   ├── Harry.Potter.and.the.Chamber.of.Secrets.2002.EXTENDED.1080p.10bit.BluRay.6CH.x265.HEVC-PSA.mkv
+│   ├── Harry.Potter.and.the.Deathly.Hallows.Part.1.2010.1080p.BrRip.x264.YIFY.mp4
+│   ├── Harry.Potter.and.the.Deathly.Hallows.Part.1.2010.1080p.BrRip.x264.YIFY.srt
+│   ├── Harry.Potter.and.the.Deathly.Hallows.Part.2.2011.Open.Matte.1080p.WEBRip.x265-KONTRAST.mkv
+│   ├── Harry.Potter.and.the.Goblet.of.Fire.2005.1080p.BrRip.x264.YIFY.mp4
+│   ├── Harry.Potter.and.the.Goblet.of.Fire.2005.1080p.BrRip.x264.YIFY.srt
+│   ├── Harry.Potter.and.the.Half-Blood.Prince.2009.Open.Matte.1080p.WEBRip.x265-KONTRAST.mkv
+│   ├── Harry.Potter.and.the.Order.of.the.Phoenix.2007.1080p.BrRip.x264.YIFY.mp4
+│   ├── Harry.Potter.and.the.Order.of.the.Phoenix.2007.1080p.BrRip.x264.YIFY.srt
+│   ├── Harry.Potter.and.the.Prisoner.of.Azkaban.2004.1080p.10bit.BluRay.6CH.x265.HEVC-PSA.mkv
+│   ├── Harry.Potter.and.the.Sorcerers.Stone.2001.1080p.BrRip.x264.YIFY ( FIRST TRY).mp4
+│   └── Harry.Potter.and.the.Sorcerers.Stone.2001.1080p.BrRip.x264.YIFY ( FIRST TRY).srt
+├── home_alone
+│   ├── Home.Alone.1990.REMASTERED.1080p.BluRay.x265-RARBG.mp4
+│   ├── Home.Alone.2.Lost.In.New.York.1992.1080p.BluRay.x265-RARBG.mp4
+│   ├── home_alone_2.srt
+│   └── home_alone_English.srt
+├── Indiana Jones
+│   ├── Indiana.Jones.And.The.Last.Crusade.1989.1080p.BluRay.x264.YIFY.mp4
+│   ├── Indiana.Jones.And.The.Last.Crusade.1989.1080p.BluRay.x264.YIFY.srt
+│   ├── Indiana Jones And The Raiders Of The Lost Ark (1981)  [1080p x265 q22 FS94 Joy].mkv
+│   ├── Indiana.Jones.And.The.Temple.Of.Doom.1984.1080p.BluRay.x264.YIFY.mp4
+│   └── Indiana.Jones.And.The.Temple.Of.Doom.1984.1080p.BluRay.x264.YIFY.srt
+├── Inglourious Basterds 2009 1080p BluRay HEVC x265 5.1 BONE.mkv
+├── Inside Out
+│   ├── Inside.Out.2015.1080p.BluRay.x264.YIFY.mp4
+│   └── Inside.Out.2.2024.1080p.WEBRip.1400MB.DD5.1.x264-GalaxyRG.mkv
+├── Jumanji
+│   └── Jumanji.1995.1080p.BluRay.x264-[YTS.AG].mp4
+├── Jurassic Park
+│   ├── Jurassic.Park.1993.1080p.BRrip.x264.YIFY.mp4
+│   ├── Jurassic.Park.1993.1080p.BRrip.x264.YIFY.srt
+│   ├── Jurassic.Park.III.2001.1080p.BRrip.x264.YIFY.mp4
+│   ├── Jurassic.Park.III.2001.1080p.BRrip.x264.YIFY.srt
+│   ├── Jurassic.Park.II.The.Lost.World.1997.1080p.BRrip.x264.YIFY.mp4
+│   └── Jurassic.Park.II.The.Lost.World.1997.1080p.BRrip.x264.YIFY.srt
+├── Legend.2015.1080p.BRRip.x264.AAC-ETRG.mp4
+├── Leon 1994 IC REMASTERED 1080p BluRay HEVC x265 5.1 BONE.mkv
+├── Lord_of_the_rings
+│   ├── The.Lord.of.the.Rings.The.Fellowship.of.the.Rings.THEATRICAL.EDITION.2001.1080p.BrRip.x264.BOKUTOX.YIFY.mp4
+│   ├── The.Lord.of.the.Rings.The.Fellowship.of.the.Rings.THEATRICAL.EDITION.2001.1080p.BrRip.x264.BOKUTOX.YIFY.srt
+│   ├── The.Lord.of.the.Rings.The.Return.of.the.King.EXTENDED.2003.1080p.BrRip.x264.YIFY.mp4
+│   ├── The.Lord.of.the.Rings.The.Return.of.the.King.EXTENDED.2003.1080p.BrRip.x264.YIFY.srt
+│   ├── The.Lord.of.the.Rings.The.Two.Towers.2002.ExD.1080p.BrRip.x264.YIFY.mp4
+│   └── The.Lord.of.the.Rings.The.Two.Towers.2002.ExD.1080p.BrRip.x264.YIFY.srt
+├── Mean.Girls.2004.1080p.BrRip.x264.YIFY.mp4
+├── oceans_eleven
+│   ├── Oceans Eleven 2001.720p.BrRip.x264.YIFY.mp4
+│   └── Oceans Eleven 2001.720p.BrRip.x264.YIFY.srt
+├── Oppenheimer.2023.1080p.BluRay.DD5.1.x264-GalaxyRG.mkv
+├── Persuasion.2022.1080p.WEBRip.x264.AAC5.1-[YTS.MX].mp4
+├── Pirates of the Caribbean
+│   ├── Pirates.of.the.Caribbean.At.Worlds.End.2007.1080p.BrRip.x264.Deceit.YIFY.mp4
+│   ├── Pirates.of.the.Caribbean.At.Worlds.End.2007.1080p.BrRip.x264.Deceit.YIFY.srt
+│   ├── Pirates.of.the.Caribbean.Curse.of.the.Black.Pearl.2003.1080p.BrRip.x264.Deceit.YIFY.mp4
+│   ├── Pirates.of.the.Caribbean.Curse.of.the.Black.Pearl.2003.1080p.BrRip.x264.Deceit.YIFY.srt
+│   ├── Pirates.of.the.Caribbean.Dead.Man's.Chest.2006.1080p.BrRip.x264.Deceit.YIFY.mp4
+│   ├── Pirates.of.the.Caribbean.Dead.Man's.Chest.2006.1080p.BrRip.x264.Deceit.YIFY.srt
+│   ├── Pirates.Of.The.Caribbean.Dead.Men.Tell.No.Tales.2017.1080p.BluRay.x264-[YTS.AG].mp4
+│   ├── Pirates.of.the.Caribbean.On.Stranger.Tides.2011.1080p.BrRip.x264.Deceit.YIFY.mp4
+│   └── Pirates.of.the.Caribbean.On.Stranger.Tides.2011.1080p.BrRip.x264.Deceit.YIFY.srt
+├── Pulp Fiction 1994 REMASTERED 1080p BluRay HEVC x265 5.1 BONE.mkv
+├── Ratatouille.2007.1080p.BrRip.x264.YIFY.mp4
+├── Rocky.1976.1080p.BrRip.x264.YIFY.mp4
+├── Schindler's.List.1993.1080p.BDRip.H265.AAC -  KiNGDOM.mp4
+├── Shutter.Island.2010.1080p.BluRay.x264.YIFY.mp4
+├── Subs
+│   ├── 500.Days.of.Summer.2009.ENGLISH.srt
+│   ├── A.Beautiful.Mind.2001.1080p.BrRip.x264.YIFY.srt
+│   ├── Batman.The.Dark.Knight.2008.1080p.BluRay.x264.YIFY.srt
+│   ├── Braveheart.1995.1080p.BrRip.x264.YIFY+HI.srt
+│   ├── Bride.Wars.2009.1080p.BrRip.x264.YIFY.srt
+│   ├── (eng)The Grand Budapest Hotel 2014 1080p BRRip x264 AAC-JYK.srt
+│   ├── Fight.Club.10th.Anniversary.Edition.1999.1080p.BrRip.x264.YIFY.srt
+│   ├── Legend.2015.720p.BRRip.x264.AAC-ETRG.srt
+│   ├── Legend.srt
+│   ├── Mean.Girls.2004.1080p.BrRip.x264.YIFY.srt
+│   ├── Persuasion.srt
+│   ├── Ratatouille.2007.1080p.BrRip.x264.YIFY.srt
+│   ├── Rocky.1976.1080p.BrRip.x264.YIFY.srt
+│   ├── Shutter.Island.2010.1080p.BluRay.x264.YIFY.srt
+│   ├── the father.srt
+│   ├── The.Patriot.Extended.Cut.2000.1080p.BrRip.x264.YIFY.srt
+│   ├── The.Proposal.2009.1080p.BrRip.x264.YIFY.srt
+│   ├── The.Shawshank.Redemption.1994.1080p.x264.YIFY.srt
+│   └── Troy.srt
+├── Terminator 2 Judgment Day 1991 EXTENDED REMASTERED 1080p BluRay HEVC x265 5.1 BONE.mkv
+├── The.Devil.Wears.Prada.2006.1080p.BluRay.AV1.Opus.5.1-heTOrico.mkv
+├── The.Father.2020.1080p.WEBRip.x264-RARBG.mp4
+├── the_godfather
+│   ├── The.Godfather.1972.1080p.BrRip.x264.BOKUTOX.YIFY.mp4
+│   ├── The.Godfather.1972.1080p.BrRip.x264.BOKUTOX.YIFY.srt
+│   ├── The.Godfather.Part.2.1974.1080p.BrRip.x264.BOKUTOX.YIFY.mp4
+│   └── The.Godfather.Part.2.1974.1080p.BrRip.x264.BOKUTOX.YIFY.srt
+├── The Grand Budapest Hotel 2014 1080p BRRip x264 AAC-JYK.mp4
+├── The Green Mile 1999 1080p BluRay HEVC x265 5.1 BONE.mkv
+├── the_hangover
+│   └── The Hangover 2009 part 1 1080p.ts
+├── The Matrix
+│   ├── The Matrix 1999 REMASTERED 1080p BluRay HEVC x265 5.1 BONE.mkv
+│   ├── The Matrix Reloaded 2003 REMASTERED 1080p BluRay HEVC x265 5.1 BONE.mkv
+│   ├── The Matrix Resurrections 2021 1080p BluRay HEVC x265 5.1 BONE.mkv
+│   └── The Matrix Revolutions 2003 REMASTERED 1080p BluRay HEVC x265 5.1 BONE.mkv
+├── The.Patriot.Extended.Cut.2000.1080p.BrRip.x264.YIFY.mp4
+├── The.Prestige.2006.1080p.BluRay.x264-[YTS.AM].mp4
+├── The.Proposal.2009.1080p.BrRip.x264.YIFY.mp4
+├── The.Shawshank.Redemption.1994.1080p.x264.YIFY.mp4
+├── The.Wolf.of.Wall.Street.2013.1080p.BluRay.x264.YIFY.mp4
+└── Troy.2004.DC.1080p.BluRay.x264.AAC-ETRG.mp4
+
+17 directories, 119 files

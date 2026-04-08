@@ -1,0 +1,618 @@
+[
+  {
+    "originalFileName": "12.Years.a.Slave.2013.1080p.BluRay.x264.YIFY.mp4",
+    "folder": null,
+    "tmdb": {
+      "id": 76203,
+      "title": "12 Years a Slave"
+    }
+  },
+  {
+    "originalFileName": "500Days of Summer 2009 1080p.mp4",
+    "folder": null,
+    "tmdb": {
+      "id": 19913,
+      "title": "(500) Days of Summer"
+    }
+  },
+  {
+    "originalFileName": "A.Beautiful.Mind.2001.1080p.BrRip.x264.YIFY.mp4",
+    "folder": null,
+    "tmdb": {
+      "id": 453,
+      "title": "A Beautiful Mind"
+    }
+  },
+  {
+    "originalFileName": "Avatar.ECE.2009.1080p.BrRip.x264.bitloks.YIFY.mp4",
+    "folder": "Avatar",
+    "tmdb": {
+      "id": 19995,
+      "title": "Avatar"
+    }
+  },
+  {
+    "originalFileName": "Back To The Future 1985 Remastered 1080p BluRay HEVC x265 5.1 BONE.mkv",
+    "folder": "Back_To_The_Future_Trilogy",
+    "tmdb": {
+      "id": 105,
+      "title": "Back to the Future"
+    }
+  },
+  {
+    "originalFileName": "Back To The Future Part II 1989 Remastered 1080p BluRay HEVC x265 5.1 BONE.mkv",
+    "folder": "Back_To_The_Future_Trilogy",
+    "tmdb": {
+      "id": 165,
+      "title": "Back to the Future Part II"
+    }
+  },
+  {
+    "originalFileName": "Back To The Future Part III 1990 Remastered 1080p BluRay HEVC x265 5.1 BONE.mkv",
+    "folder": "Back_To_The_Future_Trilogy",
+    "tmdb": {
+      "id": 196,
+      "title": "Back to the Future Part III"
+    }
+  },
+  {
+    "originalFileName": "Batman.The.Dark.Knight.2008.1080p.BluRay.x264.YIFY.mp4",
+    "folder": null,
+    "tmdb": {
+      "id": 155,
+      "title": "The Dark Knight"
+    }
+  },
+  {
+    "originalFileName": "Braveheart.1995.1080p.BrRip.x264.YIFY+HI.mp4",
+    "folder": null,
+    "tmdb": {
+      "id": 197,
+      "title": "Braveheart"
+    }
+  },
+  {
+    "originalFileName": "Bride.Wars.2009.1080p.BrRip.x264.YIFY.mp4",
+    "folder": null,
+    "tmdb": {
+      "id": 10521,
+      "title": "Bride Wars"
+    }
+  },
+  {
+    "originalFileName": "Catch Me If You Can 2002 REMASTERED 1080p BluRay HEVC x265 5.1 BONE.mkv",
+    "folder": null,
+    "tmdb": {
+      "id": 640,
+      "title": "Catch Me If You Can"
+    }
+  },
+  {
+    "originalFileName": "Coco.2017.1080p.BluRay.x264-[YTS.AG].mp4",
+    "folder": null,
+    "tmdb": {
+      "id": 354912,
+      "title": "Coco"
+    }
+  },
+  {
+    "originalFileName": "Die.Hard.1988.1080p.BluRay.AV1.DDP.5.1.Multi3-dAV1nci.mkv",
+    "folder": null,
+    "tmdb": {
+      "id": 562,
+      "title": "Die Hard"
+    }
+  },
+  {
+    "originalFileName": "EuroTrip 2004 UNRATED 1080p BluRay HEVC x265 5.1 BONE.mkv",
+    "folder": null,
+    "tmdb": {
+      "id": 9352,
+      "title": "EuroTrip"
+    }
+  },
+  {
+    "originalFileName": "Fight.Club.10th.Anniversary.Edition.1999.1080p.BrRip.x264.YIFY.mp4",
+    "folder": null,
+    "tmdb": {
+      "id": 550,
+      "title": "Fight Club"
+    }
+  },
+  {
+    "originalFileName": "Forrest Gump 1994 REMASTERED 1080p BluRay HEVC x265 5.1 BONE.mkv",
+    "folder": null,
+    "tmdb": {
+      "id": 13,
+      "title": "Forrest Gump"
+    }
+  },
+  {
+    "originalFileName": "Gladiator.EXTENDED.2000.1080.BrRip.264.YIFY.mp4",
+    "folder": "gladiator",
+    "tmdb": {
+      "id": 98,
+      "title": "Gladiator"
+    }
+  },
+  {
+    "originalFileName": "Gone.Girl.2014.1080p.BluRay.x264.YIFY.mp4",
+    "folder": null,
+    "tmdb": {
+      "id": 210577,
+      "title": "Gone Girl"
+    }
+  },
+  {
+    "originalFileName": "Green.Book.2018.1080p.WEBRip.x264-[YTS.AM].mp4",
+    "folder": null,
+    "tmdb": {
+      "id": 490132,
+      "title": "Green Book"
+    }
+  },
+  {
+    "originalFileName": "Hacksaw.Ridge.2016.1080p.BluRay.H264.AAC.mp4",
+    "folder": null,
+    "tmdb": {
+      "id": 324786,
+      "title": "Hacksaw Ridge"
+    }
+  },
+  {
+    "originalFileName": "Harry.Potter.and.the.Chamber.of.Secrets.2002.EXTENDED.1080p.10bit.BluRay.6CH.x265.HEVC-PSA.mkv",
+    "folder": "Harry_Potter",
+    "tmdb": {
+      "id": 672,
+      "title": "Harry Potter and the Chamber of Secrets"
+    }
+  },
+  {
+    "originalFileName": "Harry.Potter.and.the.Deathly.Hallows.Part.1.2010.1080p.BrRip.x264.YIFY.mp4",
+    "folder": "Harry_Potter",
+    "tmdb": {
+      "id": 12444,
+      "title": "Harry Potter and the Deathly Hallows: Part 1"
+    }
+  },
+  {
+    "originalFileName": "Harry.Potter.and.the.Deathly.Hallows.Part.2.2011.Open.Matte.1080p.WEBRip.x265-KONTRAST.mkv",
+    "folder": "Harry_Potter",
+    "tmdb": {
+      "id": 12445,
+      "title": "Harry Potter and the Deathly Hallows: Part 2"
+    }
+  },
+  {
+    "originalFileName": "Harry.Potter.and.the.Goblet.of.Fire.2005.1080p.BrRip.x264.YIFY.mp4",
+    "folder": "Harry_Potter",
+    "tmdb": {
+      "id": 674,
+      "title": "Harry Potter and the Goblet of Fire"
+    }
+  },
+  {
+    "originalFileName": "Harry.Potter.and.the.Half-Blood.Prince.2009.Open.Matte.1080p.WEBRip.x265-KONTRAST.mkv",
+    "folder": "Harry_Potter",
+    "tmdb": {
+      "id": 767,
+      "title": "Harry Potter and the Half-Blood Prince"
+    }
+  },
+  {
+    "originalFileName": "Harry.Potter.and.the.Order.of.the.Phoenix.2007.1080p.BrRip.x264.YIFY.mp4",
+    "folder": "Harry_Potter",
+    "tmdb": {
+      "id": 675,
+      "title": "Harry Potter and the Order of the Phoenix"
+    }
+  },
+  {
+    "originalFileName": "Harry.Potter.and.the.Prisoner.of.Azkaban.2004.1080p.10bit.BluRay.6CH.x265.HEVC-PSA.mkv",
+    "folder": "Harry_Potter",
+    "tmdb": {
+      "id": 673,
+      "title": "Harry Potter and the Prisoner of Azkaban"
+    }
+  },
+  {
+    "originalFileName": "Harry.Potter.and.the.Sorcerers.Stone.2001.1080p.BrRip.x264.YIFY ( FIRST TRY).mp4",
+    "folder": "Harry_Potter",
+    "tmdb": {
+      "id": 671,
+      "title": "Harry Potter and the Philosopher's Stone"
+    }
+  },
+  {
+    "originalFileName": "Home.Alone.1990.REMASTERED.1080p.BluRay.x265-RARBG.mp4",
+    "folder": "home_alone",
+    "tmdb": {
+      "id": 771,
+      "title": "Home Alone"
+    }
+  },
+  {
+    "originalFileName": "Home.Alone.2.Lost.In.New.York.1992.1080p.BluRay.x265-RARBG.mp4",
+    "folder": "home_alone",
+    "tmdb": {
+      "id": 772,
+      "title": "Home Alone 2: Lost in New York"
+    }
+  },
+  {
+    "originalFileName": "Indiana.Jones.And.The.Last.Crusade.1989.1080p.BluRay.x264.YIFY.mp4",
+    "folder": "Indiana Jones",
+    "tmdb": {
+      "id": 89,
+      "title": "Indiana Jones and the Last Crusade"
+    }
+  },
+  {
+    "originalFileName": "Indiana Jones And The Raiders Of The Lost Ark (1981)  [1080p x265 q22 FS94 Joy].mkv",
+    "folder": "Indiana Jones",
+    "tmdb": {
+      "id": 85,
+      "title": "Raiders of the Lost Ark"
+    }
+  },
+  {
+    "originalFileName": "Indiana.Jones.And.The.Temple.Of.Doom.1984.1080p.BluRay.x264.YIFY.mp4",
+    "folder": "Indiana Jones",
+    "tmdb": {
+      "id": 87,
+      "title": "Indiana Jones and the Temple of Doom"
+    }
+  },
+  {
+    "originalFileName": "Inglourious Basterds 2009 1080p BluRay HEVC x265 5.1 BONE.mkv",
+    "folder": null,
+    "tmdb": {
+      "id": 16869,
+      "title": "Inglourious Basterds"
+    }
+  },
+  {
+    "originalFileName": "Inside.Out.2015.1080p.BluRay.x264.YIFY.mp4",
+    "folder": "Inside Out",
+    "tmdb": {
+      "id": 150540,
+      "title": "Inside Out"
+    }
+  },
+  {
+    "originalFileName": "Inside.Out.2.2024.1080p.WEBRip.1400MB.DD5.1.x264-GalaxyRG.mkv",
+    "folder": "Inside Out",
+    "tmdb": {
+      "id": 1022789,
+      "title": "Inside Out 2"
+    }
+  },
+  {
+    "originalFileName": "Jumanji.1995.1080p.BluRay.x264-[YTS.AG].mp4",
+    "folder": "Jumanji",
+    "tmdb": {
+      "id": 8844,
+      "title": "Jumanji"
+    }
+  },
+  {
+    "originalFileName": "Jurassic.Park.1993.1080p.BRrip.x264.YIFY.mp4",
+    "folder": "Jurassic Park",
+    "tmdb": {
+      "id": 329,
+      "title": "Jurassic Park"
+    }
+  },
+  {
+    "originalFileName": "Jurassic.Park.III.2001.1080p.BRrip.x264.YIFY.mp4",
+    "folder": "Jurassic Park",
+    "tmdb": {
+      "id": 331,
+      "title": "Jurassic Park III"
+    }
+  },
+  {
+    "originalFileName": "Jurassic.Park.II.The.Lost.World.1997.1080p.BRrip.x264.YIFY.mp4",
+    "folder": "Jurassic Park",
+    "tmdb": {
+      "id": 330,
+      "title": "The Lost World: Jurassic Park"
+    }
+  },
+  {
+    "originalFileName": "Legend.2015.1080p.BRRip.x264.AAC-ETRG.mp4",
+    "folder": null,
+    "tmdb": {
+      "id": 276907,
+      "title": "Legend"
+    }
+  },
+  {
+    "originalFileName": "Leon 1994 IC REMASTERED 1080p BluRay HEVC x265 5.1 BONE.mkv",
+    "folder": null,
+    "tmdb": {
+      "id": 8587,
+      "title": "The Lion King"
+    }
+  },
+  {
+    "originalFileName": "The.Lord.of.the.Rings.The.Fellowship.of.the.Rings.THEATRICAL.EDITION.2001.1080p.BrRip.x264.BOKUTOX.YIFY.mp4",
+    "folder": "Lord_of_the_rings",
+    "tmdb": {
+      "id": 120,
+      "title": "The Lord of the Rings: The Fellowship of the Ring"
+    }
+  },
+  {
+    "originalFileName": "The.Lord.of.the.Rings.The.Return.of.the.King.EXTENDED.2003.1080p.BrRip.x264.YIFY.mp4",
+    "folder": "Lord_of_the_rings",
+    "tmdb": {
+      "id": 122,
+      "title": "The Lord of the Rings: The Return of the King"
+    }
+  },
+  {
+    "originalFileName": "The.Lord.of.the.Rings.The.Two.Towers.2002.ExD.1080p.BrRip.x264.YIFY.mp4",
+    "folder": "Lord_of_the_rings",
+    "tmdb": {
+      "id": 121,
+      "title": "The Lord of the Rings: The Two Towers"
+    }
+  },
+  {
+    "originalFileName": "Mean.Girls.2004.1080p.BrRip.x264.YIFY.mp4",
+    "folder": null,
+    "tmdb": {
+      "id": 10625,
+      "title": "Mean Girls"
+    }
+  },
+  {
+    "originalFileName": "Oceans Eleven 2001.720p.BrRip.x264.YIFY.mp4",
+    "folder": "oceans_eleven",
+    "tmdb": {
+      "id": 161,
+      "title": "Ocean's Eleven"
+    }
+  },
+  {
+    "originalFileName": "Oppenheimer.2023.1080p.BluRay.DD5.1.x264-GalaxyRG.mkv",
+    "folder": null,
+    "tmdb": {
+      "id": 872585,
+      "title": "Oppenheimer"
+    }
+  },
+  {
+    "originalFileName": "Persuasion.2022.1080p.WEBRip.x264.AAC5.1-[YTS.MX].mp4",
+    "folder": null,
+    "tmdb": {
+      "id": 820912,
+      "title": "Persuasion"
+    }
+  },
+  {
+    "originalFileName": "Pirates.of.the.Caribbean.At.Worlds.End.2007.1080p.BrRip.x264.Deceit.YIFY.mp4",
+    "folder": "Pirates of the Caribbean",
+    "tmdb": {
+      "id": 285,
+      "title": "Pirates of the Caribbean: At World's End"
+    }
+  },
+  {
+    "originalFileName": "Pirates.of.the.Caribbean.Curse.of.the.Black.Pearl.2003.1080p.BrRip.x264.Deceit.YIFY.mp4",
+    "folder": "Pirates of the Caribbean",
+    "tmdb": {
+      "id": 22,
+      "title": "Pirates of the Caribbean: The Curse of the Black Pearl"
+    }
+  },
+  {
+    "originalFileName": "Pirates.of.the.Caribbean.Dead.Man's.Chest.2006.1080p.BrRip.x264.Deceit.YIFY.mp4",
+    "folder": "Pirates of the Caribbean",
+    "tmdb": {
+      "id": 58,
+      "title": "Pirates of the Caribbean: Dead Man's Chest"
+    }
+  },
+  {
+    "originalFileName": "Pirates.Of.The.Caribbean.Dead.Men.Tell.No.Tales.2017.1080p.BluRay.x264-[YTS.AG].mp4",
+    "folder": "Pirates of the Caribbean",
+    "tmdb": {
+      "id": 166426,
+      "title": "Pirates of the Caribbean: Dead Men Tell No Tales"
+    }
+  },
+  {
+    "originalFileName": "Pirates.of.the.Caribbean.On.Stranger.Tides.2011.1080p.BrRip.x264.Deceit.YIFY.mp4",
+    "folder": "Pirates of the Caribbean",
+    "tmdb": {
+      "id": 1865,
+      "title": "Pirates of the Caribbean: On Stranger Tides"
+    }
+  },
+  {
+    "originalFileName": "Pulp Fiction 1994 REMASTERED 1080p BluRay HEVC x265 5.1 BONE.mkv",
+    "folder": null,
+    "tmdb": {
+      "id": 680,
+      "title": "Pulp Fiction"
+    }
+  },
+  {
+    "originalFileName": "Ratatouille.2007.1080p.BrRip.x264.YIFY.mp4",
+    "folder": null,
+    "tmdb": {
+      "id": 2062,
+      "title": "Ratatouille"
+    }
+  },
+  {
+    "originalFileName": "Rocky.1976.1080p.BrRip.x264.YIFY.mp4",
+    "folder": null,
+    "tmdb": {
+      "id": 1366,
+      "title": "Rocky"
+    }
+  },
+  {
+    "originalFileName": "Schindler's.List.1993.1080p.BDRip.H265.AAC -  KiNGDOM.mp4",
+    "folder": null,
+    "tmdb": {
+      "id": 424,
+      "title": "Schindler's List"
+    }
+  },
+  {
+    "originalFileName": "Shutter.Island.2010.1080p.BluRay.x264.YIFY.mp4",
+    "folder": null,
+    "tmdb": {
+      "id": 11324,
+      "title": "Shutter Island"
+    }
+  },
+  {
+    "originalFileName": "Terminator 2 Judgment Day 1991 EXTENDED REMASTERED 1080p BluRay HEVC x265 5.1 BONE.mkv",
+    "folder": null,
+    "tmdb": {
+      "id": 280,
+      "title": "Terminator 2: Judgment Day"
+    }
+  },
+  {
+    "originalFileName": "The.Devil.Wears.Prada.2006.1080p.BluRay.AV1.Opus.5.1-heTOrico.mkv",
+    "folder": null,
+    "tmdb": {
+      "id": 350,
+      "title": "The Devil Wears Prada"
+    }
+  },
+  {
+    "originalFileName": "The.Father.2020.1080p.WEBRip.x264-RARBG.mp4",
+    "folder": null,
+    "tmdb": {
+      "id": 600354,
+      "title": "The Father"
+    }
+  },
+  {
+    "originalFileName": "The.Godfather.1972.1080p.BrRip.x264.BOKUTOX.YIFY.mp4",
+    "folder": "the_godfather",
+    "tmdb": {
+      "id": 238,
+      "title": "The Godfather"
+    }
+  },
+  {
+    "originalFileName": "The.Godfather.Part.2.1974.1080p.BrRip.x264.BOKUTOX.YIFY.mp4",
+    "folder": "the_godfather",
+    "tmdb": {
+      "id": 240,
+      "title": "The Godfather Part II"
+    }
+  },
+  {
+    "originalFileName": "The Grand Budapest Hotel 2014 1080p BRRip x264 AAC-JYK.mp4",
+    "folder": null,
+    "tmdb": {
+      "id": 120467,
+      "title": "The Grand Budapest Hotel"
+    }
+  },
+  {
+    "originalFileName": "The Green Mile 1999 1080p BluRay HEVC x265 5.1 BONE.mkv",
+    "folder": null,
+    "tmdb": {
+      "id": 497,
+      "title": "The Green Mile"
+    }
+  },
+  {
+    "originalFileName": "The Hangover 2009 part 1 1080p.ts",
+    "folder": "the_hangover",
+    "tmdb": {
+      "id": 18785,
+      "title": "The Hangover"
+    }
+  },
+  {
+    "originalFileName": "The Matrix 1999 REMASTERED 1080p BluRay HEVC x265 5.1 BONE.mkv",
+    "folder": "The Matrix",
+    "tmdb": {
+      "id": 603,
+      "title": "The Matrix"
+    }
+  },
+  {
+    "originalFileName": "The Matrix Reloaded 2003 REMASTERED 1080p BluRay HEVC x265 5.1 BONE.mkv",
+    "folder": "The Matrix",
+    "tmdb": {
+      "id": 604,
+      "title": "The Matrix Reloaded"
+    }
+  },
+  {
+    "originalFileName": "The Matrix Resurrections 2021 1080p BluRay HEVC x265 5.1 BONE.mkv",
+    "folder": "The Matrix",
+    "tmdb": {
+      "id": 624860,
+      "title": "The Matrix Resurrections"
+    }
+  },
+  {
+    "originalFileName": "The Matrix Revolutions 2003 REMASTERED 1080p BluRay HEVC x265 5.1 BONE.mkv",
+    "folder": "The Matrix",
+    "tmdb": {
+      "id": 605,
+      "title": "The Matrix Revolutions"
+    }
+  },
+  {
+    "originalFileName": "The.Patriot.Extended.Cut.2000.1080p.BrRip.x264.YIFY.mp4",
+    "folder": null,
+    "tmdb": {
+      "id": 2024,
+      "title": "The Patriot"
+    }
+  },
+  {
+    "originalFileName": "The.Prestige.2006.1080p.BluRay.x264-[YTS.AM].mp4",
+    "folder": null,
+    "tmdb": {
+      "id": 1124,
+      "title": "The Prestige"
+    }
+  },
+  {
+    "originalFileName": "The.Proposal.2009.1080p.BrRip.x264.YIFY.mp4",
+    "folder": null,
+    "tmdb": {
+      "id": 18240,
+      "title": "The Proposal"
+    }
+  },
+  {
+    "originalFileName": "The.Shawshank.Redemption.1994.1080p.x264.YIFY.mp4",
+    "folder": null,
+    "tmdb": {
+      "id": 278,
+      "title": "The Shawshank Redemption"
+    }
+  },
+  {
+    "originalFileName": "The.Wolf.of.Wall.Street.2013.1080p.BluRay.x264.YIFY.mp4",
+    "folder": null,
+    "tmdb": {
+      "id": 106646,
+      "title": "The Wolf of Wall Street"
+    }
+  },
+  {
+    "originalFileName": "Troy.2004.DC.1080p.BluRay.x264.AAC-ETRG.mp4",
+    "folder": null,
+    "tmdb": {
+      "id": 652,
+      "title": "Troy"
+    }
+  }
+]
