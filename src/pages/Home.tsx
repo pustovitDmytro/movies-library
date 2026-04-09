@@ -1,30 +1,36 @@
 import { useMemo, useState } from "react";
-import { Filters, type FilterState } from "@/components/Filters";
+import { Filters } from "@/components/Filters";
 import { Hero } from "@/components/Hero";
 import { MovieCard } from "@/components/MovieCard";
 import {
   filterMovies,
   getAllMovies,
-  getFeaturedMovie,
   getFilterOptions,
+  getRandomFeaturedMovie,
+  type FilterState,
 } from "@/lib/movies";
 
 export function Home() {
   const all = getAllMovies();
   const opts = useMemo(() => getFilterOptions(), []);
-  const featured = useMemo(() => getFeaturedMovie(), []);
+  const [featured] = useState(() => getRandomFeaturedMovie());
 
   const [filters, setFilters] = useState<FilterState>(() => ({
-    years: [],
+    yearMin: opts.minYear,
+    yearMax: opts.maxYear,
+    durationMin: opts.minDuration,
+    durationMax: opts.maxDuration,
     genres: [],
     actors: [],
+    directors: [],
+    countries: [],
+    languages: [],
     minRating: opts.minRating,
-    maxRating: opts.maxRating,
   }));
 
   const filtered = useMemo(
-    () => filterMovies(all, filters),
-    [all, filters],
+    () => filterMovies(all, filters, opts),
+    [all, filters, opts],
   );
 
   return (
@@ -45,8 +51,8 @@ export function Home() {
         </div>
         {filtered.length === 0 ? (
           <p className="rounded-lg border border-dashed border-white/15 bg-zinc-900/50 px-6 py-16 text-center text-zinc-400">
-            No films match these filters. Try relaxing year, genre, actor, or
-            rating selections.
+            No films match these filters. Try widening year, runtime, or rating,
+            or clear genre, country, language, cast, or director selections.
           </p>
         ) : (
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-7">

@@ -47,12 +47,6 @@ export function Hero({ movie }: Props) {
           >
             More info
           </Link>
-          <Link
-            to={`/movie/${movie.tmdbId}`}
-            className="inline-flex items-center justify-center rounded border border-white/30 bg-white/10 px-8 py-3 text-sm font-semibold text-white backdrop-blur transition hover:bg-white/20"
-          >
-            Details & trailers
-          </Link>
         </div>
       </div>
     </section>
