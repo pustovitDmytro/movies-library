@@ -173,6 +173,30 @@ function guessQuery(filename) {
 }
 
 /**
+ * @param {string} query
+ * @param {string} title
+ */
+function queryTitleOverlap(query, title) {
+  const norm = (s) =>
+    s
+      .normalize("NFD")
+      .replace(/\p{M}/gu, "")
+      .toLowerCase();
+  const qw = norm(query)
+    .split(/\s+/)
+    .map((w) => w.replace(/[^a-z0-9]/gi, ""))
+    .filter((w) => w.length >= 2);
+  const t = norm(title || "");
+  if (!qw.length) return 100;
+  let hits = 0;
+  for (const w of qw) {
+    if (t.includes(w)) hits += 1;
+  }
+  return Math.round((100 * hits) / qw.length);
+}
+
+/**
+ * TMDB returns results in relevance order; do not re-sort by vote_count (breaks short titles like "Leon").
  * @param {string} apiKey
  * @param {string} query
  * @param {number | null} year
@@ -193,16 +217,28 @@ async function tmdbSearchMovie(apiKey, query, year) {
   }
   const results = data.results || [];
   if (!results.length) return null;
-  const pool = results.slice(0, 10);
-  pool.sort(
-    (a, b) =>
-      (b.vote_count || 0) - (a.vote_count || 0) || (b.popularity || 0) - (a.popularity || 0),
-  );
-  const r0 = pool[0];
+  const r0 = results[0];
+  const r1 = results[1];
+  const title = r0.title || r0.original_title || "";
+  const v0 = r0.vote_count || 0;
+  const v1 = r1 ? r1.vote_count || 0 : 0;
+  const p0 = r0.popularity || 0;
+  const p1 = r1 ? r1.popularity || 0 : 0;
+  const s0 = v0 + p0 * 15;
+  const s1 = r1 ? v1 + p1 * 15 : 0;
+  /** How clearly #1 beats #2 by votes+popularity (only if second exists) */
+  const gapScore = r1 ? Math.round((100 * s0) / (s0 + s1 + 1)) : 100;
+  const overlap = queryTitleOverlap(q, title);
+  const score = Math.round(0.45 * gapScore + 0.55 * overlap);
+  const label = score < 55 ? "LOW" : score < 75 ? "MED" : "HIGH";
   return {
     id: r0.id,
-    title: r0.title || r0.original_title,
+    title,
     release_date: r0.release_date,
+    confidence: { score, gapScore, overlap, label },
+    runnerUp: r1
+      ? { id: r1.id, title: r1.title || r1.original_title || "", vote_count: r1.vote_count }
+      : null,
   };
 }
 
@@ -227,10 +263,38 @@ async function main() {
   for (const [originalName, folder] of entries) {
     const [query, year] = guessQuery(originalName);
     let tmdb = null;
+    let confLog = "";
     if (apiKey && query) {
-      tmdb = await tmdbSearchMovie(apiKey, query, year);
-      if (tmdb == null && year != null) tmdb = await tmdbSearchMovie(apiKey, query, null);
+      let raw = await tmdbSearchMovie(apiKey, query, year);
+      let usedYear = year;
+      if (raw == null && year != null) {
+        raw = await tmdbSearchMovie(apiKey, query, null);
+        usedYear = null;
+      }
+      if (raw != null && raw.id != null) {
+        tmdb = { id: raw.id, title: raw.title };
+        const c = raw.confidence;
+        const ru = raw.runnerUp;
+        confLog = [
+          `[${c.label}] confidence=${c.score}%`,
+          `gap=${c.gapScore}%`,
+          `overlap=${c.overlap}%`,
+          `q="${query}"`,
+          `year=${usedYear ?? "—"}`,
+          `→ id=${raw.id} "${raw.title}"`,
+          ru ? `#2 id=${ru.id} "${ru.title}" (votes ${ru.vote_count ?? 0})` : "",
+        ]
+          .filter(Boolean)
+          .join(" | ");
+      } else {
+        confLog = `[—] no results | q="${query}" | year=${year ?? "—"}`;
+      }
+      console.log(confLog + ` | file=${originalName}`);
       await sleep(260);
+    } else if (!apiKey) {
+      console.log(`[skip] no API key | file=${originalName}`);
+    } else {
+      console.log(`[—] empty query | file=${originalName}`);
     }
     rows.push({
       originalFileName: originalName,
@@ -241,7 +305,10 @@ async function main() {
   }
 
   writeFileSync(OUT_PATH, `${JSON.stringify(rows, null, 2)}\n`, "utf8");
-  console.log(`Wrote ${rows.length} films to ${OUT_PATH}`);
+  console.log(`\nWrote ${rows.length} films to ${OUT_PATH}`);
+  console.log(
+    "Legend: confidence blends gap (#1 vs #2 popularity) and query↔title word overlap; LOW/MED = worth double-checking.",
+  );
 }
 
 main().catch((err) => {
