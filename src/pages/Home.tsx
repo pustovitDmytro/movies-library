@@ -1,7 +1,9 @@
-import { useMemo, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Filters } from "@/components/Filters";
 import { Hero } from "@/components/Hero";
 import { MovieCard } from "@/components/MovieCard";
+import { downloadMoviesCsv } from "@/lib/csvExport";
 import {
   filterMovies,
   getAllMovies,
@@ -12,6 +14,7 @@ import {
 } from "@/lib/movies";
 
 export function Home() {
+  const navigate = useNavigate();
   const all = getAllMovies();
   const opts = useMemo(() => getFilterOptions(), []);
   const [featured] = useState(() => getRandomFeaturedMovie());
@@ -35,6 +38,17 @@ export function Home() {
     return rankMoviesByTitleQuery(base, filters.titleQuery);
   }, [all, filters, opts]);
 
+  const exportCsv = useCallback(() => {
+    if (filtered.length === 0) return;
+    downloadMoviesCsv(filtered);
+  }, [filtered]);
+
+  const pickRandom = useCallback(() => {
+    if (filtered.length === 0) return;
+    const m = filtered[Math.floor(Math.random() * filtered.length)];
+    navigate(`/movie/${m.tmdbId}`);
+  }, [filtered, navigate]);
+
   return (
     <>
       {featured && <Hero movie={featured} />}
@@ -52,6 +66,24 @@ export function Home() {
                 ? " — best matches first"
                 : " match your filters"}
             </p>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            <button
+              type="button"
+              onClick={exportCsv}
+              disabled={filtered.length === 0}
+              className="rounded-lg border border-white/20 bg-white/5 px-3 py-2 text-xs font-semibold text-white transition hover:bg-white/10 disabled:cursor-not-allowed disabled:opacity-40"
+            >
+              Export CSV
+            </button>
+            <button
+              type="button"
+              onClick={pickRandom}
+              disabled={filtered.length === 0}
+              className="rounded-lg border border-netflix-red/50 bg-netflix-red/20 px-3 py-2 text-xs font-semibold text-white transition hover:bg-netflix-red/35 disabled:cursor-not-allowed disabled:opacity-40"
+            >
+              Pick random
+            </button>
           </div>
         </div>
         {filtered.length === 0 ? (
