@@ -1,9 +1,11 @@
+import Fuse from "fuse.js";
 import raw from "../../db/tmdb.json";
 import type { MovieRecord } from "@/types/movie";
 
 const movies = raw as MovieRecord[];
 
 export type FilterState = {
+  titleQuery: string;
   yearMin: number;
   yearMax: number;
   durationMin: number;
@@ -26,12 +28,30 @@ export function getMovieByTmdbId(tmdbId: number): MovieRecord | undefined {
   return movies.find((m) => m.tmdbId === tmdbId);
 }
 
+/** Splits TMDB-style language strings ("English, French") into distinct labels. */
+export function parseLanguagesFromString(raw: string): string[] {
+  return raw
+    .split(",")
+    .map((s) => s.trim())
+    .filter(Boolean);
+}
+
+function bump(counts: Map<string, number>, key: string) {
+  counts.set(key, (counts.get(key) ?? 0) + 1);
+}
+
+function sortByCountDesc(counts: Map<string, number>): string[] {
+  return [...counts.entries()]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .map(([k]) => k);
+}
+
 export function getFilterOptions() {
-  const genres = new Set<string>();
-  const actors = new Set<string>();
-  const directors = new Set<string>();
-  const countries = new Set<string>();
-  const languages = new Set<string>();
+  const genreCounts = new Map<string, number>();
+  const actorCounts = new Map<string, number>();
+  const directorCounts = new Map<string, number>();
+  const countryCounts = new Map<string, number>();
+  const languageCounts = new Map<string, number>();
   let minRating = 10;
   let maxRating = 0;
   let minYear = 99999;
@@ -45,11 +65,13 @@ export function getFilterOptions() {
     if (d.year > maxYear) maxYear = d.year;
     if (d.durationMinutes < minDuration) minDuration = d.durationMinutes;
     if (d.durationMinutes > maxDuration) maxDuration = d.durationMinutes;
-    d.genres.forEach((g) => genres.add(g));
-    d.actors.forEach((a) => actors.add(a.name));
-    directors.add(d.director);
-    d.country.forEach((c) => countries.add(c));
-    languages.add(d.language);
+    d.genres.forEach((g) => bump(genreCounts, g));
+    d.actors.forEach((a) => bump(actorCounts, a.name));
+    bump(directorCounts, d.director);
+    d.country.forEach((c) => bump(countryCounts, c));
+    for (const lang of parseLanguagesFromString(d.language)) {
+      bump(languageCounts, lang);
+    }
     if (d.rating < minRating) minRating = d.rating;
     if (d.rating > maxRating) maxRating = d.rating;
   }
@@ -59,11 +81,11 @@ export function getFilterOptions() {
     maxYear,
     minDuration,
     maxDuration,
-    genres: [...genres].sort((a, b) => a.localeCompare(b)),
-    actors: [...actors].sort((a, b) => a.localeCompare(b)),
-    directors: [...directors].sort((a, b) => a.localeCompare(b)),
-    countries: [...countries].sort((a, b) => a.localeCompare(b)),
-    languages: [...languages].sort((a, b) => a.localeCompare(b)),
+    genres: sortByCountDesc(genreCounts),
+    actors: sortByCountDesc(actorCounts),
+    directors: sortByCountDesc(directorCounts),
+    countries: sortByCountDesc(countryCounts),
+    languages: sortByCountDesc(languageCounts),
     minRating: Math.floor(minRating * 10) / 10,
     maxRating: Math.ceil(maxRating * 10) / 10,
   };
@@ -109,10 +131,40 @@ export function filterMovies(
       !filters.countries.some((c) => d.country.includes(c))
     )
       return false;
-    if (filters.languages.length && !filters.languages.includes(d.language))
-      return false;
+    if (filters.languages.length) {
+      const movieLangs = parseLanguagesFromString(d.language);
+      if (!filters.languages.some((l) => movieLangs.includes(l)))
+        return false;
+    }
     return true;
   });
+}
+
+/**
+ * Fuzzy title search: tolerates typos and partial input; results are ordered best → worst.
+ * Empty query returns the list unchanged.
+ */
+export function rankMoviesByTitleQuery(
+  list: MovieRecord[],
+  query: string,
+): MovieRecord[] {
+  const q = query.trim();
+  if (!q) return list;
+
+  const fuse = new Fuse(list, {
+    keys: [
+      { name: "details.title", weight: 0.82 },
+      { name: "tmdbTitle", weight: 0.18 },
+    ],
+    threshold: 0.48,
+    ignoreLocation: true,
+    minMatchCharLength: 1,
+    includeScore: true,
+    shouldSort: true,
+    distance: 160,
+  });
+
+  return fuse.search(q).map((r) => r.item);
 }
 
 /** Random pick from top-rated titles so the hero stays interesting on each visit. */
