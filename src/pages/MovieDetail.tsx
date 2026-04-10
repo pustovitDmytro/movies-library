@@ -1,6 +1,9 @@
+import { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { getMovieByTmdbId } from "@/lib/movies";
 import { getYoutubeVideoId } from "@/lib/youtube";
+
+const CAST_PREVIEW = 6;
 
 export function MovieDetail() {
   const { tmdbId } = useParams();
@@ -27,6 +30,10 @@ export function MovieDetail() {
   const d = movie.details;
   const hero = d.posters[0];
   const poster = d.posters[1] ?? d.posters[0];
+  const [castExpanded, setCastExpanded] = useState(false);
+  const cast = d.actors;
+  const castVisible = castExpanded ? cast : cast.slice(0, CAST_PREVIEW);
+  const castRest = Math.max(0, cast.length - CAST_PREVIEW);
 
   return (
     <article>
@@ -115,7 +122,7 @@ export function MovieDetail() {
                 Cast
               </h2>
               <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-                {d.actors.slice(0, 18).map((a) => (
+                {castVisible.map((a) => (
                   <li
                     key={`${a.name}-${a.character}`}
                     className="rounded-lg border border-white/5 bg-zinc-900/60 px-3 py-2"
@@ -125,6 +132,17 @@ export function MovieDetail() {
                   </li>
                 ))}
               </ul>
+              {castRest > 0 && (
+                <button
+                  type="button"
+                  onClick={() => setCastExpanded((v) => !v)}
+                  className="mt-3 text-sm font-medium text-netflix-red hover:underline"
+                >
+                  {castExpanded
+                    ? "Show less"
+                    : `Show all cast (${cast.length})`}
+                </button>
+              )}
             </section>
           </div>
           <aside className="space-y-4 rounded-xl border border-white/10 bg-zinc-900/40 p-6">
